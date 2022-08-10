@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/IDOMATH/bookings/pkg/config"
-	"github.com/IDOMATH/bookings/pkg/handlers"
-	"github.com/IDOMATH/bookings/pkg/render"
-	"github.com/alexedwards/scs/v2"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/IDOMATH/bookings/internal/config"
+	"github.com/IDOMATH/bookings/internal/handlers"
+	"github.com/IDOMATH/bookings/internal/render"
+	"github.com/alexedwards/scs/v2"
 )
 
 const portNumber = ":8080"

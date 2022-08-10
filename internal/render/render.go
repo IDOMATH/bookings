@@ -2,12 +2,13 @@ package render
 
 import (
 	"bytes"
-	"github.com/IDOMATH/bookings/pkg/config"
-	"github.com/IDOMATH/bookings/pkg/models"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
+
+	"github.com/IDOMATH/bookings/internal/config"
+	"github.com/IDOMATH/bookings/internal/models"
 )
 
 var app *config.AppConfig

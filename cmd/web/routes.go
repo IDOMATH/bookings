@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/IDOMATH/bookings/pkg/config"
-	"github.com/IDOMATH/bookings/pkg/handlers"
+	"net/http"
+
+	"github.com/IDOMATH/bookings/internal/config"
+	"github.com/IDOMATH/bookings/internal/handlers"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"net/http"
 )
 
 func routes(app *config.AppConfig) http.Handler {

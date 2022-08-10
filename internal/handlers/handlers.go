@@ -2,11 +2,12 @@ package handlers
 
 import (
 	"encoding/json"
-	"github.com/IDOMATH/bookings/pkg/config"
-	"github.com/IDOMATH/bookings/pkg/models"
-	"github.com/IDOMATH/bookings/pkg/render"
 	"log"
 	"net/http"
+
+	"github.com/IDOMATH/bookings/internal/config"
+	"github.com/IDOMATH/bookings/internal/models"
+	"github.com/IDOMATH/bookings/internal/render"
 )
 
 type jsonResponse struct {
